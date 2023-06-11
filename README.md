@@ -1,6 +1,6 @@
 # Example API project
 
-This Python script uses the dummyjson website (`https://dummyjson.com`) to retrieve data using API requests.
+This Python script uses the dummyjson website (https://dummyjson.com/) to retrieve data using API requests.
 The user can choose to view one of three different data types - products, users or carts.
 
 ## Requirements

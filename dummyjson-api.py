@@ -14,7 +14,7 @@ if json_type in valid_options:  # checks if the input is one of the valid endpoi
     url = endpoints[json_type]  # sets 'url' to requested option
 
     if data_id == "0":  # checks if ID input is 0
-        response = requests.get(url)  # sends GET request to requested enpoint
+        response = requests.get(url)  # sends GET request to requested endpoint
         data = response.json()  # parses retrieved data to json
         print(data)  # prints json
     else:
